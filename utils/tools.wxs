@@ -1,0 +1,18 @@
+// 课表滑动函数
+// 由于小程序不支持wxml中indexOf判断，所以需要wxs特有的脚本语言
+function indexOf(arr,value) {
+  if (arr.indexOf(value) > -1) {
+    return true
+  }
+  return false
+}
+
+function getWeekText(num){
+  var arr = ['日','一','二','三','四','五','六']
+  return arr[num]
+}
+
+module.exports = {
+  indexOf: indexOf,
+  getWeekText: getWeekText
+}

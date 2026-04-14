@@ -1,0 +1,20 @@
+<cu-custom bgColor="bg-white">
+  <view slot="content" class="headText">个人中心</view>
+</cu-custom>
+<view class="container">
+  <view class="head">
+    <image src="{{baseUrl}}/logo_mini.png" mode="aspectFit"/>
+    <view class="name-area">
+      <text>欢迎你，{{stuName}}!</text>
+    </view>
+    
+  </view>
+ 
+
+<view class="main">
+<text>系统维护中</text>
+
+</view>
+  
+
+</view>

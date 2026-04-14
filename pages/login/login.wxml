@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="logo_area">
+    <image src="{{baseUrl}}/logo.png" mode="aspectFill" style="height: 435rpx;width: 100%;"/>
+  </view>
+  
+  <view class="input_area">
+    <view class="text_area">
+    <!-- model:value="{{dataName}} 类似vue双向绑定 " -->
+    <!-- 账号输入框 -->
+    <view class="input_item">
+      <text class="text" id="text_1">StudentId</text>
+      <image src="/asset/icon/账号.png" class="icon" mode="aspectFit" />
+      <input type="text" model:value="{{stuId}}" bindinput="fakeCallback" placeholder="请输入学号"/>
+    </view>
+      
+    <view class="input_item">
+    <!-- 密码输入框 -->
+      <text class="text" id="text_2" >Password</text>
+      <image src="/asset/icon/密码.png" class="icon" mode="aspectFit"/>
+      <input type="password" model:value="{{password}}" bindinput="fakeCallback" placeholder="请输入密码"/>
+    </view>
+  </view>
+
+    <view class="btn_area" style="width: 650rpx; height: 140rpx; display: block; box-sizing: border-box">
+      <button bindtap="login">登陆</button>
+    </view>
+
+  </view>
+
+
+  <view class="info">
+    明德 笃学 宏毅 拓新
+  </view>
+
+
+</view>

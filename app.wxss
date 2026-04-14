@@ -1,0 +1,16 @@
+@import "/style/main.wxss";
+
+view {
+  box-sizing: border-box;
+} 
+.headText{
+  font-size: 28rpx;
+  text-align: center;
+  font-weight: 500;
+  color:#1278ba;
+}
+.backText{
+  font-size: 28rpx;
+  text-align: center;
+  font-weight: 500;
+}
