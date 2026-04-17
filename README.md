@@ -1,6 +1,7 @@
 # 青科小智
 
 > 一个面向青岛科技大学教务场景的非官方微信小程序前端，用于课表与成绩查询。
+> 参考 https://github.com/danbaixi/yunxiaozhi
 
 ## 项目简介
 
